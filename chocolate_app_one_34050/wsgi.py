@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chocolate_app_one_34050.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chocolate_app_one_34050.settings")
 
 application = get_wsgi_application()
