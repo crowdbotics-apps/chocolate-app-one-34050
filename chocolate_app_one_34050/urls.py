@@ -36,9 +36,9 @@ urlpatterns = [
     path("api/v1/", include("location.api.v1.urls")),
 ]
 
-admin.site.site_header = "Chocolate-App-One"
-admin.site.site_title = "Chocolate-App-One Admin Portal"
-admin.site.index_title = "Chocolate-App-One Admin"
+admin.site.site_header = "Test-One"
+admin.site.site_title = "Test-One Admin Portal"
+admin.site.index_title = "Test-One Admin"
 
 # swagger
 api_info = openapi.Info(
